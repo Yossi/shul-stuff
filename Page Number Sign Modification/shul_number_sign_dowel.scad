@@ -51,9 +51,9 @@ inner_frame = in_inner_frame * to_mm;
 
 // rest of these measurements in mm
 radius = 7; // dowel radius. comes from the size of the OEM plastic stick-on retrofit. both raise the rings about 7mm.
-big_radius = 25; // big radius for the cone. should be at least too big for a ring to slip over.
+big_radius = 18; // big radius for the cone. should be at least too big for a ring to slip over.
 length = window_width/2; // length of the dowel. half the width of a window.
-slice_gap = 2.2; // thickness of the metal the sign is made of. 0.2mm added to account for printer imperfections. adjust if your printer necessitates it.
+slice_gap = 2.3; // thickness of the metal the sign is made of. 0.3mm added to account for printer imperfections. adjust if your printer necessitates it.
 chamfer_size = 1.2; // size of the chamfer on the slot. makes it easier to insert the dowel on to the sign.
 resolution = 100; // higher number = smoother cylinder. too high = slow rendering. 100 is just fine
 
